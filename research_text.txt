@@ -1,4 +1,6 @@
 
+fitness_landcape.png
+https://gaboross.github.io/images/man-with-microscope.jpg
 
 A file to make drafts for research statements
 
@@ -23,7 +25,7 @@ We create from our measurements fitness landscapes. These are theoretical evolut
 
 # Spatial
 
-
+https://gaboross.github.io/images/energy.jpg
 
 
 # Collaborators
