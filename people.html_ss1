@@ -4,7 +4,7 @@
       <meta charset="utf-8">
       <title>People</title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="description" content="Research Lab at the Institute of Evolution">
+      <meta name="description" content="Research Lab, Home, Velit Aliquet Sagittis University">
       <meta name="author" content="">
       <!-- Le styles -->
       <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -47,9 +47,9 @@
                </ul>
             </div> -->
             <div class="span8 offset1">
-               <section id="labmembers">
+               <section id="principalinvestigator">
                   <div class="page-header">
-                     <h3>Lab members</h3>
+                     <h3>Principal Investigator</h3>
                   </div>
                   <div class="row-fluid">
                      <div class="span3">
@@ -63,115 +63,123 @@
                         <!-- <p>Ph.D. in Mechanical Engineering, Lorem Ipsum, 2013<br/>M.S. in Mechanical Engineering, HRV, 2011<br/>BASc in Engineering, University of Lorem Ipsum, 2009</p> 
                         <p><b>Phone: </b>(999) 999-9999 </p> -->
                         <p><b>Email: </b><a href="mailto:boross.gabor@ecolres.hu">boross.gabor@ecolres.hu</a></p>
-                        <p><b><a href="https://ecolres.hu/en/munkatarsak/gabor-zoltan-boross/" target="_blank">ecolres page</a>, <a href="https://scholar.google.hu/citations?user=8ZmiMp4AAAAJ&hl=hu&oi=ao" target="_blank">Google Scholar</a></b></p>
+                        <p><b>Address: </b>1121, Budapest, Konkoly-Thege Miklós út 29-33</p>
+                        <p><b><a href="https://ecolres.hu/en/munkatarsak/gabor-zoltan-boross/" target="_blank">ecolres page</a>, <a href="https://scholar.google.hu/citations?user=8ZmiMp4AAAAJ&hl=hu&oi=ao" target="_blank">Google Scholar</a>, <a href="https://www.linkedin.com/in/gabor-boross-43a4b0242/" target="_blank">Linkedin</a></b></p>
                      </div>
                   </div>
-                  
-                  <hr>
-                  
-                  <div class="row-fluid">
-                     <div class="span3">
-                        <!-- <a href="https://unsplash.com/photos/aCZ2hiC-iDk" class="thumbnail"> -->
-                        <img src="thumbs/marton_szamecz_1.jpeg" alt="Márton Szamecz"/>
-                        </a>
-                     </div>
-                     <div class="span9">
-                        <h4>Márton Szamecz</h4>
-                        <p>BSc. Student</p>
-                        <p>Marci is a 2nd year computer science B.Sc. student working on developing novel algorithms to find synergistic mutations in driver genes by capitalizing on multiple infections in lentiviral CRISPR screens. For Marci, these experimental problems are a feature, not a bug.</p>
-                        <!-- <p>Ph.D. in Mechanical Engineering, Lorem Ipsum, 2013<br/>M.S. in Mechanical Engineering, HRV, 2011<br/>BASc in Engineering, University of Lorem Ipsum, 2009</p> 
-                        <p><b>Phone: </b>(999) 999-9999 </p>
-                        <p><b>Email: </b><a href="mailto:boross.gabor@ecolres.hu">boross.gabor@ecolres.hu</a></p>
-                        <p><b><a href="https://ecolres.hu/en/munkatarsak/gabor-zoltan-boross/" target="_blank">ecolres page</a>, <a href="https://scholar.google.hu/citations?user=8ZmiMp4AAAAJ&hl=hu&oi=ao" target="_blank">Google Scholar</a></b></p> -->
-                     </div>
+               </section>
+               <hr>
+               <section id="postdoc">
+                  <div class="page-header">
+                     <h3>Postdocs</h3>
                   </div>
-                  
-                   <hr>
-                  
-                  <div class="row-fluid">
+                  <!-- <div class="row-fluid">
                      <div class="span3">
-                        <!-- <a href="https://unsplash.com/photos/aCZ2hiC-iDk" class="thumbnail"> -->
-                        <img src="thumbs/Daria_Chalkova.jpg" alt="Daria Chalkova"/>
-                        </a>
-                     </div>
-                     <div class="span9">
-                        <h4>Daria Chalkova</h4>
-                        <p>M.Sc. Student</p>
-                        <p>Daria is a data scientist with expertise in pharmacokinetics and clinical trial data analysis, blending a background in biotechnology and bioengineering with advanced training in biostatistics and computer science. She is a first year master student of biology at Eotvos University and is broadly interested in computational biology, statistics and genetics.
-</p>
-                        <!-- <p>Ph.D. in Mechanical Engineering, Lorem Ipsum, 2013<br/>M.S. in Mechanical Engineering, HRV, 2011<br/>BASc in Engineering, University of Lorem Ipsum, 2009</p> 
-                        <p><b>Phone: </b>(999) 999-9999 </p>
-                        <p><b>Email: </b><a href="mailto:boross.gabor@ecolres.hu">boross.gabor@ecolres.hu</a></p>
-                        <p><b><a href="https://ecolres.hu/en/munkatarsak/gabor-zoltan-boross/" target="_blank">ecolres page</a>, <a href="https://scholar.google.hu/citations?user=8ZmiMp4AAAAJ&hl=hu&oi=ao" target="_blank">Google Scholar</a></b></p> -->
-                     </div>
-                  </div>
-
-                   <hr>
-                  
-                  <div class="row-fluid">
-                     <div class="span3">
-                        <!-- <a href="https://unsplash.com/photos/aCZ2hiC-iDk" class="thumbnail"> -->
-                        <img src="thumbs/Laylo_Ulmasova.jpg" alt="Laylo Ulmasova"/>
-                        </a>
-                     </div>
-                     <div class="span9">
-                        <h4>Laylo Ulmasova</h4>
-                        <p>M.Sc. Student</p>
-                        <p>Laylo is a first year Biology MSc. student at Eotvos University, specializing in Molecular, Immuno- and Microbiology. She has a B.Sc. in Industrial Pharmacy and an interest in wet and dry lab.</p>
-                        <!-- <p>Ph.D. in Mechanical Engineering, Lorem Ipsum, 2013<br/>M.S. in Mechanical Engineering, HRV, 2011<br/>BASc in Engineering, University of Lorem Ipsum, 2009</p> 
-                        <p><b>Phone: </b>(999) 999-9999 </p>
-                        <p><b>Email: </b><a href="mailto:boross.gabor@ecolres.hu">boross.gabor@ecolres.hu</a></p>
-                        <p><b><a href="https://ecolres.hu/en/munkatarsak/gabor-zoltan-boross/" target="_blank">ecolres page</a>, <a href="https://scholar.google.hu/citations?user=8ZmiMp4AAAAJ&hl=hu&oi=ao" target="_blank">Google Scholar</a></b></p> -->
-                     </div>
-                  </div>
-                  
-                   <hr>
-                  
-                  <div class="row-fluid">
-                     <div class="span3">
-                        <!-- <a href="https://unsplash.com/photos/aCZ2hiC-iDk" class="thumbnail"> -->
-                        <img src="thumbs/Luca.jpeg" alt="Luca Bajza"/>
-                        </a>
-                     </div>
-                     <div class="span9">
-                        <h4>Luca Bajza</h4>
-                        <p>High-school Student</p>
-                        <p>Luca is a senior high-school student at Ferenc Rákóczi II. secondary school. Luca aims to become a veterinarian and is looking to get some research experience under her belt before going to university. When Luca is not swimming, running or riding a horse, she is interested in learning molecular biology techniques in the lab.</p>
-                        <!-- <p>Ph.D. in Mechanical Engineering, Lorem Ipsum, 2013<br/>M.S. in Mechanical Engineering, HRV, 2011<br/>BASc in Engineering, University of Lorem Ipsum, 2009</p> 
-                        <p><b>Phone: </b>(999) 999-9999 </p>
-                        <p><b>Email: </b><a href="mailto:boross.gabor@ecolres.hu">boross.gabor@ecolres.hu</a></p>
-                        <p><b><a href="https://ecolres.hu/en/munkatarsak/gabor-zoltan-boross/" target="_blank">ecolres page</a>, <a href="https://scholar.google.hu/citations?user=8ZmiMp4AAAAJ&hl=hu&oi=ao" target="_blank">Google Scholar</a></b></p> -->
-                     </div>
-                  </div>
-                   <hr>
-                  
-                  <div class="row-fluid">
-                     <div class="span3">
-                        <!-- <a href="https://unsplash.com/photos/aCZ2hiC-iDk" class="thumbnail"> -->
-                        <img src="thumbs/avatar.png" alt="Avater"/>
+                        <img src="thumbs/avatar.png" alt="Avator"/>
                         </a>
                      </div>
                      <div class="span9">
                         <h4>You?</h4>
-                        <p>We are looking for researchers in all stages of their career. If you are interested in joining our lab, <a href="contact.html">let us know</a>. </p>
-                        <!-- <p>Ph.D. in Mechanical Engineering, Lorem Ipsum, 2013<br/>M.S. in Mechanical Engineering, HRV, 2011<br/>BASc in Engineering, University of Lorem Ipsum, 2009</p> 
-                        <p><b>Phone: </b>(999) 999-9999 </p>
-                        <p><b>Email: </b><a href="mailto:boross.gabor@ecolres.hu">boross.gabor@ecolres.hu</a></p>
-                        <p><b><a href="https://ecolres.hu/en/munkatarsak/gabor-zoltan-boross/" target="_blank">ecolres page</a>, <a href="https://scholar.google.hu/citations?user=8ZmiMp4AAAAJ&hl=hu&oi=ao" target="_blank">Google Scholar</a></b></p> -->
+                        <p>If you are interested in doing a postdoc with us, get in touch! </p>
                      </div>
+                  </div> -->
+                 
+               </section>
+               <section id="graduate">
+                  <div class="page-header">
+                     <h3>Graduate Students</h3>
                   </div>
-                  
-                  
-                  
+                    <!-- <div class="row-fluid">
+                     <div class="span3">
+                        <img src="thumbs/avatar.png" alt="Avator"/>
+                        </a>
+                     </div>
+                     <div class="span9">
+                        <h4>You?</h4>
+                        <p>If you are interested in joining us to earn your PhD, scholarships are available. Drop us a line. </p>
+                     </div>
+                  </div> -->
                   
                </section>
-               
-               
-               
-               
+               <section id="undergraduate">
+                  <div class="page-header">
+                     <h3>Undergraduate Students</h3>
+                  </div>
+                  <div class="row-fluid">
+                     <div class="span3">
+                        <!-- <a href="https://unsplash.com/photos/unr5ZqXXvqU" class="thumbnail"> -->
+                        <img src="thumbs/marton_szamecz_1.jpeg" alt="Marton Szamecz"/>
+                        </a>
+                     </div>
+                     <div class="span9">
+                        <h4>Márton Szamecz</h4>
+                        <p>Marci is a 2nd year computer science B.Sc. student working on developing novel algorithms to find synergistic mutations in driver genes by capitalizing on multiple infections in lentiviral CRISPR screens. For Marci, these experimental problems are a feature, not a bug.</p>
+                     </div>
+                  </div>
+                  <hr>
+                  <div class="row-fluid">
+                     <div class="span3">
+                        <!-- <a href="https://unsplash.com/photos/aaaGLiTRqkg" class="thumbnail"> -->
+                        <img src="thumbs/avatar.png" alt="Avator"/>
+                        </a>
+                     </div>
+                     <div class="span9">
+                        <h4>Daria</h4>
+                        <p>Asd. </p>
+                        <!-- <p><b>Email: </b><a href="mailto:jane.email@uni.edu">jane.email@uni.edu</a></p>
+                        <p><b>Address: </b>999 Fake Street Avenue, City, State Country ZIP</p> -->
+                     </div>
+                  </div>
+                  <!-- <div class="row-fluid">
+                     <div class="span3">
+                        <a href="https://unsplash.com/photos/aaaGLiTRqkg" class="thumbnail"> 
+                        <img src="thumbs/avatar.png" alt="Avator"/>
+                        </a>
+                     </div>
+                     <div class="span9">
+                        <h4>You?</h4>
+                        <p>We are always looking for talented and self-motivated undergraduates. If you find our research interesting, let's talk. </p>
+                        <p><b>Email: </b><a href="mailto:jane.email@uni.edu">jane.email@uni.edu</a></p>
+                        <p><b>Address: </b>999 Fake Street Avenue, City, State Country ZIP</p>
+                     </div>
+                  </div>
+                  <hr> -->
+               </section>
                <hr>
-               
-               
+               <section id="highschoolstudents">
+                  <div class="page-header">
+                     <h3>High-school Students</h3>
+                  </div>
+                  <!-- <div class="row-fluid">
+                     <div class="span3">
+                        <img src="thumbs/avatar.png" alt="Avator"/>
+                        </a>
+                     </div>
+                     <div class="span9">
+                        <h4>You?</h4>
+                        <p>If you are a high school student with some extra time on your hand and want to try yourself out as a researcher, let us know. </p>
+                     </div>
+                  </div> -->
+               </section>
+
+               <section id="you">
+                  <div class="page-header">
+                     <h3>You?</h3>
+                  </div>
+                  <div class="row-fluid">
+                     <div class="span3">
+                        <!-- <a href="https://unsplash.com/photos/aaaGLiTRqkg" class="thumbnail"> -->
+                        <img src="thumbs/avatar.png" alt="Avator"/>
+                        </a>
+                     </div>
+                     <div class="span9">
+                        <!-- <h4>You?</h4> -->
+                        <p>If you are interested in joining our lab, <a href="contact.html">let us know</a>. </p>
+                        <!-- <p><b>Email: </b><a href="mailto:jane.email@uni.edu">jane.email@uni.edu</a></p>
+                        <p><b>Address: </b>999 Fake Street Avenue, City, State Country ZIP</p> -->
+                     </div>
+                  </div>
+               </section>
             </div>
          </div>
       </div>
