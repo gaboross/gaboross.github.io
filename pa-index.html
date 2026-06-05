@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paragliders Anonymous | Conscious Pilot Program</title>
+    <style>
+        /* Base Styling */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        :root {
+            --primary: #0084ff;
+            --primary-dark: #0056b3;
+            --dark: #1a252f;
+            --light: #f8f9fa;
+            --accent: #e74c3c;
+        }
+
+        body {
+            background-color: var(--light);
+            color: var(--dark);
+            line-height: 1.6;
+        }
+
+        /* Navigation Bar */
+        nav {
+            background: white;
+            padding: 15px 5%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        .logo-container {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            text-decoration: none;
+            color: var(--dark);
+        }
+
+        .logo-text {
+            font-weight: 800;
+            font-size: 1.4rem;
+            letter-spacing: -0.5px;
+            text-transform: uppercase;
+        }
+
+        .logo-text span {
+            color: var(--primary);
+        }
+
+        .nav-links {
+            display: flex;
+            list-style: none;
+            gap: 25px;
+        }
+
+        .nav-links a {
+            text-decoration: none;
+            color: var(--dark);
+            font-weight: 600;
+            transition: color 0.3s;
+        }
+
+        .nav-links a:hover {
+            color: var(--primary);
+        }
+
+        .cta-btn {
+            background: var(--primary);
+            color: white !important;
+            padding: 8px 18px;
+            border-radius: 20px;
+            transition: background 0.3s !important;
+        }
+
+        .cta-btn:hover {
+            background: var(--primary-dark);
+        }
+
+        /* Hero Section */
+        header {
+            background: linear-gradient(135deg, rgba(26, 37, 47, 0.9), rgba(0, 132, 255, 0.4)), 
+                        url('https://unsplash.com') no-repeat center center/cover;
+            color: white;
+            padding: 140px 5% 100px;
+            text-align: center;
+        }
+
+        .hero-content {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        header h1 {
+            font-size: 3.5rem;
+            margin-bottom: 20px;
+            font-weight: 800;
+        }
+
+        header p {
+            font-size: 1.3rem;
+            margin-bottom: 30px;
+            opacity: 0.9;
+        }
+
+        /* COPP Program Section */
+        .copp-section {
+            padding: 80px 5%;
+            background: white;
+            text-align: center;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+
+        .badge {
+            background: #e1f0ff;
+            color: var(--primary);
+            padding: 6px 15px;
+            border-radius: 20px;
+            font-size: 0.9rem;
+            font-weight: 700;
+            display: inline-block;
+            margin-bottom: 15px;
+            text-transform: uppercase;
+        }
+
+        h2 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+            color: var(--dark);
+        }
+
+        .lead-text {
+            font-size: 1.2rem;
+            color: #555;
+            margin-bottom: 40px;
+            max-width: 800px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .copp-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 30px;
+            margin-top: 40px;
+        }
+
+        .copp-card {
+            background: var(--light);
+            padding: 35px 25px;
+            border-radius: 12px;
+            text-align: left;
+            border-top: 4px solid var(--primary);
+            transition: transform 0.3s;
+        }
+
+        .copp-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .copp-card h3 {
+            margin-bottom: 15px;
+            color: var(--dark);
+            font-size: 1.3rem;
+        }
+
+        /* Pillars Section */
+        .pillars {
+            padding: 60px 5%;
+            background: #f1f3f5;
+        }
+
+        .pillar-row {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 40px;
+            align-items: center;
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+
+        .pillar-text {
+            flex: 1;
+            min-wIdth: 300px;
+        }
+
+        /* Footer */
+        footer {
+            background: var(--dark);
+            color: white;
+            padding: 40px 5%;
+            text-align: center;
+            font-size: 0.9rem;
+            border-top: 3px solid var(--primary);
+        }
+
+        footer p {
+            opacity: 0.7;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            header h1 { font-size: 2.3rem; }
+            .nav-links { display: none; }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header Navigation -->
+    <nav>
+        <a href="#" class="logo-container">
+            <!-- Modern SVG Custom Logo: Represents flight, community support, and continuous visual checks -->
+            <svg wIdth="45" height="45" viewBox="0 0 100 100" xmlns="http://w3.org">
+                <!-- Paraglider Wing Arch -->
+                <path d="M15,45 Q50,15 85,45" fill="none" stroke="#0084ff" stroke-wIdth="7" stroke-linecap="round"/>
+                <!-- Shroud Lines meeting at the anchor point -->
+                <path d="M17,47 L50,75 M83,47 L50,75" fill="none" stroke="#1a252f" stroke-wIdth="2" opacity="0.4"/>
+                <!-- Concentric Mindfulness/Awareness Eye Rings (The Conscious Element) -->
+                <circle cx="50" cy="52" r="14" fill="none" stroke="#e74c3c" stroke-wIdth="3"/>
+                <circle cx="50" cy="52" r="5" fill="#1a252f" />
+            </svg>
+            <div class="logo-text">Paragliders<span>Anonymous</span></div>
+        </a>
+        <ul class="nav-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#copp">COPP Program</a></li>
+            <li><a href="#philosophy">Our Philosophy</a></li>
+            <li><a href="#join" class="cta-btn">Join Us</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Showcase Section -->
+    <header>
+        <div class="hero-content">
+            <h1>Admitting Our Addiction. Elevating Our Safety.</h1>
+            <p>We fly because we must, but we keep each other grounded in reality. Welcome to a group of pilots dedicated to mastering the mental game of free flight.</p>
+            <a href="#copp" style="display: inline-block; background: var(--primary); color: white; text-decoration: none; padding: 12px 30px; font-weight: bold; border-radius: 25px; transition: 0.3s;">Explore the COPP Strategy</a>
+        </div>
+    </header>
+
+    <!-- COPP Program details -->
+    <section id="copp" class="copp-section">
+        <div class="container">
+            <span class="badge">The COPP Strategy</span>
+            <h2>Conscious Pilot Program</h2>
+            <p class="lead-text">
+                Let’s be honest: paragliding is an absolute addiction. The chemical rush of chasing thermals can cloud our judgment. COPP is our framework to ensure this obsession enriches our daily lives on the ground while keeping us fundamentally safe in the air.
+            </p>
+
+            <div class="copp-grid">
+                <div class="copp-card">
+                    <h3>1. Radical Danger Awareness</h3>
+                    <p>We completely strip away the romanticism. We explicitly study micro-meteorology, unexpected collapses, and human factor failures to step into our harnesses fully aware of the risk baseline.</p>
+                </div>
+                <div class="copp-card">
+                    <h3>2. Intentional Goals</h3>
+                    <p>We do not launch "just to fly." Every flight requires a conscious declaration of intent. Knowing exactly <em>why</em> you are in the air prevents you from overextending your limits when chasing adrenaline.</p>
+                </div>
+                <div class="copp-card">
+                    <h3>3. Life Enrichment</h3>
+                    <p>An addiction drains your life; a passion builds it. We utilize the focus, calm, and discipline acquired during extreme flights to transform ourselves into better parents, professionals, and friends on the ground.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Philosophy Section -->
+    <section id="philosophy" class="pillars">
+        <div class="pillar-row">
+            <div class="pillar-text">
+                <h2 style="font-size: 2rem; margin-bottom: 15px;">Why "Anonymous"?</h2>
+                <p style="color: #4a5568; margin-bottom: 15px;">
+                    We are not truly hidden, but we embrace the humility of the name. In the presence of changing air masses and towering peaks, our egos must remain non-existent.
+                </p>
+                <p style="color: #4a5568;">
+                    By checking our pride at the landing zone, we create a transparent safety culture where pilots can openly talk about mistakes, near-misses, and fear without facing mockery. 
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Content -->
+    <footer>
+        <div class="container">
+            <p style="margin-bottom: 15px;">&copy; 2026 Paragliders Anonymous. Fly safe, fly consciously, live fully.</p>
